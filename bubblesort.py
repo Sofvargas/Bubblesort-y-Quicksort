@@ -2,7 +2,7 @@ def bubblesort(v, n):
     for i in range(n - 1):
         for j in range(n - 1 - i):
             if v[j] > v[j + 1]:
-                v[j], v[j + 1] = v[j + 1], v[j]   # intercambiar
+                v[j], v[j + 1] = v[j + 1], v[j]   # intercambiar l
 
 
 def main():
